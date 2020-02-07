@@ -37,6 +37,4 @@ while incorr_guess < 6:
 
 print("\nThe correct answer is " + answer)
 
-#  O 
-# /|\
-# / \
+
