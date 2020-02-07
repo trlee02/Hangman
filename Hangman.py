@@ -28,7 +28,6 @@ while incorr_guess < 6:
         print("\nCorrect! That is a letter in the word.\n")
         #get index where the char is in the string
         printGuesses(guess, answer)
-
     else:
         print("\nThat is not a letter in the word\n")
         incorr_guess += 1
@@ -37,3 +36,7 @@ while incorr_guess < 6:
     print("")
 
 print("\nThe correct answer is " + answer)
+
+#  O 
+# /|\
+# / \
