@@ -18,6 +18,20 @@ def printGuesses(guess, answer):
 
     return index
             
+def printMan():
+    if incorr_guess is 1:
+        print(" O ")
+
+    elif incorr_guess is 2:
+        print(" O\n/")
+    elif incorr_guess is 3:
+        print(" O\n/|")
+    elif incorr_guess is 4:
+        print(" O\n/|\\")
+    elif incorr_guess is 5:
+        print(" O\n/|\\\n/")
+    elif incorr_guess is 6:
+        print(" O\n/|\\\n/ \\")
     
 
 while incorr_guess < 6:
@@ -32,8 +46,10 @@ while incorr_guess < 6:
         print("\nThat is not a letter in the word\n")
         incorr_guess += 1
 
+    
     print(*cur_guesses)
     print("")
+    printMan()
 
 print("\nThe correct answer is " + answer)
 
